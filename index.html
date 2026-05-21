@@ -1,0 +1,827 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>HAVAL</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__links">
+                <a href="#" class="header__link">
+                    <img class="header__logo" src="images/logo.png" alt="logo">
+                </a>
+                <a href="tel:+00000000000" class="header__phone">
+                    <img class="header__phone-icon" src="images/phone.png" alt="phone">
+                    +0 000 000 00 00
+                </a>
+                <address class="header__address">
+                    <img class="header__address-icon" src="images/address.png" alt="address">
+                    г. Москва <br> Часы работы с 09:00 до 21:00
+                </address>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <nav class="menu">
+            <div class="container">
+                <button
+                        class="menu__burger"
+                        type="button"
+                        aria-label="Открыть меню"
+                        aria-expanded="false"
+                >
+                    <span class="menu__burger-icon">☰</span>
+                </button>
+                <div class="menu__list">
+                    <ul class="menu__models">
+                        <li class="menu__item">
+                            <a href="#cards" class="menu__item-model" data-model="m6">M6</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#cards" class="menu__item-model" data-model="dargox">DARGO X</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#cards" class="menu__item-model"  data-model="dargo">DARGO</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#cards" class="menu__item-model" data-model="jolion">JOLION</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#cards" class="menu__item-model" data-model="f7x">F7x</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#cards" class="menu__item-model" data-model="f7">F7</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#cards" class="menu__item-model" data-model="h9">H9</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#cards" class="menu__item-model" data-model="gwm-poer">GWM Poer</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#cards" class="menu__item-model" data-model="gwm-poer-kingkong">GWM Poer KINGKONG</a>
+                        </li>
+                    </ul>
+                    <ul class="menu__actions">
+                        <li class="menu__item">
+                            <a href="/" class="menu__item-action">ПОДОБРАТЬ КОМПЛЕКТАЦИЮ</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/" class="menu__item-action">ТЕСТ-ДРАЙВ</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/" class="menu__item-action">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <section class="main__content">
+            <h1 class="main__title">Увеличиваем выгоды на HAVAL
+                <span class="title__gray">в Химках к Чёрной пятнице!</span>
+            </h1>
+            <button class="btn"  type="button" data-fancybox data-src="#modal-form" data-title="Зафиксировать условия">
+                Зафиксировать условия
+            </button>
+        </section>
+        <section class="timer">
+            <div class="container timer__container">
+                <div class="timer__content">
+                    <h2 class="timer__title">Оставьте заявку и зафиксируйте условия</h2>
+                    <div class="sinoby-timer"
+                         data-sinoby-reserve="sinoby-g49n1f"
+                         data-config='{"type":"fixed-end","preset":"rings-soft","schedule":{"endAt":"2026-06-01T00:00:00"},"style":{"digitGap":8,"digitColor":"/000000","labelsFont":"Manrope, sans-serif","labelSize":18,"labelGap":0,"labelColor":"#000000","separatorSize":30,"cardBackgroundColor":"#f8fafc","ringCurrentColor":"/00cabf","ringRemainingColor":"#00cabf"}}'
+                         data-lazy="true">
+                    </div>
+                </div>
+                <button class="btn btn--large"  type="button" data-fancybox data-src="#modal-form" data-title="Зафиксировать условия">Зафиксировать условия</button>
+            </div>
+        </section>
+        <section class="cards">
+            <div class="container">
+                <div class="cards__slider">
+                    <div class="swiper cards__swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <article class="card" data-model="m6">
+                                    <div class="card__badge">
+                                        <span class="card__badge-text">В наличии</span>
+                                        <span class="card__badge-count">21 автомобиль</span>
+                                    </div>
+                                    <div class="card__header">
+                                        <div class="card__titles">
+                                            <h2 class="card__title">
+                                                HAVAL M6
+                                            </h2>
+                                            <p class="card__subtitle">
+                                                Выгода до <span class="card__subtitle-price">410 000 ₽</span>
+                                            </p>
+                                        </div>
+                                        <button class="card__testdrive-btn"  type="button"data-fancybox data-src="#modal-form" data-title="Тест-драйв">
+                                            <img src="./images/pen.svg" alt="pen" class="card__testdrive-image">
+                                            <span class="card__testdrive-link">Записаться <br> на тест-драйв</span>
+                                        </button>
+                                        <a href="/" class="card__images-link">
+                                            <img src="images/m6-black.png" alt="M6" class="card__img">
+                                        </a>
+                                    </div>
+                                    <form class="card__color-form">
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-M6" value="black" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-M6" value="platinum" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-M6" value="gray" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                    </form>
+                                    <div class="card__discounts">
+                                        <div class="card__discount">
+                                            <img src="./images/outline.svg" alt="outline">
+                                            <a href="/">Выгода по госпрограмме</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/shield.svg" alt="shield">
+                                            <a href="/">КАСКО в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/gift.svg" alt="gift">
+                                            <a href="/">Доп.оборудование <br> на 100 000р в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/wallet.svg" alt="wallet">
+                                            <a href="/">Максимальные <br> выгоды по трейд-ин</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/tires.svg" alt="tires">
+                                            <a href="/">Зимние шины в подарок</a>
+                                        </div>
+                                    </div>
+                                    <div class="card__buttons">
+                                        <button class="card__price"  type="button" ddata-fancybox data-src="#modal-form" data-title="Узнать стоимость">
+                                            Узнать стоимость
+                                        </button>
+                                        <button class="card__credit"  type="button" data-fancybox data-src="#modal-form" data-title="Кредит">
+                                            Рассчитать кредит
+                                        </button>
+                                        <button class="card__config"  type="button" data-fancybox data-src="#modal-form" data-title="Комплектация">
+                                            Подобрать комплектацию
+                                        </button>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="card" data-model="dargox">
+                                    <div class="card__badge">
+                                        <span class="card__badge-text">В наличии</span>
+                                    </div>
+                                    <div class="card__header">
+                                        <div class="card__titles">
+                                            <h2 class="card__title">
+                                                HAVAL DARGO X
+                                            </h2>
+                                            <p class="card__subtitle">
+                                                Выгода до <span class="card__subtitle-price">320 000 ₽</span>
+                                            </p>
+                                        </div>
+                                        <button class="card__testdrive-btn"  type="button" data-fancybox data-src="#modal-form" data-title="Тест-драйв">
+                                            <img src="./images/filter.png" alt="filter" class="card__testdrive-image">
+                                            Записаться <br> на тест-драйв
+                                        </button>
+                                        <a href="/" class="card__images-link">
+                                            <img src="images/dargoX-gray.png" alt="dargoX" class="card__img">
+                                        </a>
+                                    </div>
+                                    <form class="card__color-form">
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="gray" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="black" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="platinum" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="red" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                    </form>
+                                    <div class="card__discounts">
+                                        <div class="card__discount">
+                                            <img src="./images/outline.svg" alt="outline">
+                                            <a href="/">Выгода по госпрограмме</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/shield.svg" alt="shield">
+                                            <a href="/">КАСКО в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/gift.svg" alt="gift">
+                                            <a href="/">Доп.оборудование <br> на 100 000р в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/wallet.svg" alt="wallet">
+                                            <a href="/">Максимальные <br> выгоды по трейд-ин</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/tires.svg" alt="tires">
+                                            <a href="/">Зимние шины в подарок</a>
+                                        </div>
+                                    </div>
+                                    <div class="card__buttons">
+                                        <button class="card__price"  type="button" data-fancybox data-src="#modal-form" data-title="Узнать стоимость">
+                                            Узнать стоимость
+                                        </button>
+
+                                        <button class="card__credit"  type="button" data-fancybox data-src="#modal-form" data-title="Кредит">
+                                            Рассчитать кредит
+                                        </button>
+                                        <button class="card__config"  type="button" data-fancybox data-src="#modal-form" data-title="Комплектация">
+                                            Подобрать комплектацию
+                                        </button>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="card" data-model="dargo">
+                                    <div class="card__badge">
+                                        <span class="card__badge-text">В наличии</span>
+                                    </div>
+                                    <div class="card__header">
+                                        <div class="card__titles">
+                                            <h2 class="card__title">
+                                                HAVAL DARGO
+                                            </h2>
+                                            <p class="card__subtitle">
+                                                Выгода до <span class="card__subtitle-price">300 000 ₽</span>
+                                            </p>
+                                        </div>
+                                        <button class="card__testdrive-btn"  type="button" data-fancybox data-src="#modal-form" data-title="Тест-драйв">
+                                            <img src="./images/filter.png" alt="filter" class="card__testdrive-image">
+                                            Записаться <br> на тест-драйв
+                                        </button>
+                                        <a href="/" class="card__images-link">
+                                            <img src="images/dargoX-gray.png" alt="dargoX" class="card__img">
+                                        </a>
+                                    </div>
+                                    <form class="card__color-form">
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="gray" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="black" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="platinum" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="red" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                    </form>
+                                    <div class="card__discounts">
+                                        <div class="card__discount">
+                                            <img src="./images/outline.svg" alt="outline">
+                                            <a href="/">Выгода по госпрограмме</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/shield.svg" alt="shield">
+                                            <a href="/">КАСКО в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/gift.svg" alt="gift">
+                                            <a href="/">Доп.оборудование <br> на 100 000р в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/wallet.svg" alt="wallet">
+                                            <a href="/">Максимальные <br> выгоды по трейд-ин</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/tires.svg" alt="tires">
+                                            <a href="/">Зимние шины в подарок</a>
+                                        </div>
+                                    </div>
+                                    <div class="card__buttons">
+                                        <button class="card__price"  type="button" data-fancybox data-src="#modal-form" data-title="Узнать стоимость">
+                                            Узнать стоимость
+                                        </button>
+
+                                        <button class="card__credit"  type="button" data-fancybox data-src="#modal-form" data-title="Кредит">
+                                            Рассчитать кредит
+                                        </button>
+                                        <button class="card__config"  type="button" data-fancybox data-src="#modal-form" data-title="Комплектация">
+                                            Подобрать комплектацию
+                                        </button>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="card" data-model="jolion">
+                                    <div class="card__badge">
+                                        <span class="card__badge-text">В наличии</span>
+                                    </div>
+                                    <div class="card__header">
+                                        <div class="card__titles">
+                                            <h2 class="card__title">
+                                                HAVAL JOLION
+                                            </h2>
+                                            <p class="card__subtitle">
+                                                Выгода до <span class="card__subtitle-price">450 000 ₽</span>
+                                            </p>
+                                        </div>
+                                        <button class="card__testdrive-btn"  type="button" data-fancybox data-src="#modal-form" data-title="Тест-драйв">
+                                            <img src="./images/filter.png" alt="filter" class="card__testdrive-image">
+                                            Записаться <br> на тест-драйв
+                                        </button>
+                                        <a href="/" class="card__images-link">
+                                            <img src="images/dargoX-gray.png" alt="dargoX" class="card__img">
+                                        </a>
+                                    </div>
+                                    <form class="card__color-form">
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="gray" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="black" class="card__color-radio" >
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="platinum" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="red" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                    </form>
+                                    <div class="card__discounts">
+                                        <div class="card__discount">
+                                            <img src="./images/outline.svg" alt="outline">
+                                            <a href="/">Выгода по госпрограмме</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/shield.svg" alt="shield">
+                                            <a href="/">КАСКО в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/gift.svg" alt="gift">
+                                            <a href="/">Доп.оборудование <br> на 100 000р в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/wallet.svg" alt="wallet">
+                                            <a href="/">Максимальные <br> выгоды по трейд-ин</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/tires.svg" alt="tires">
+                                            <a href="/">Зимние шины в подарок</a>
+                                        </div>
+                                    </div>
+                                    <div class="card__buttons">
+                                        <button class="card__price"  type="button" data-fancybox data-src="#modal-form" data-title="Узнать стоимость">
+                                            Узнать стоимость
+                                        </button>
+
+                                        <button class="card__credit"  type="button" data-fancybox data-src="#modal-form" data-title="Кредит">
+                                            Рассчитать кредит
+                                        </button>
+                                        <button class="card__config"  type="button" data-fancybox data-src="#modal-form" data-title="Комплектация">
+                                            Подобрать комплектацию
+                                        </button>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="card" data-model="f7x">
+                                    <div class="card__badge">
+                                        <span class="card__badge-text">В наличии</span>
+                                    </div>
+                                    <div class="card__header">
+                                        <div class="card__titles">
+                                            <h2 class="card__title">
+                                                HAVAL F7x
+                                            </h2>
+                                            <p class="card__subtitle">
+                                                Выгода до <span class="card__subtitle-price">300 000 ₽</span>
+                                            </p>
+                                        </div>
+                                        <button class="card__testdrive-btn"  type="button" data-fancybox data-src="#modal-form" data-title="Тест-драйв">
+                                            <img src="./images/filter.png" alt="filter" class="card__testdrive-image">
+                                            Записаться <br> на тест-драйв
+                                        </button>
+                                        <a href="/" class="card__images-link">
+                                            <img src="images/dargoX-gray.png" alt="dargoX" class="card__img">
+                                        </a>
+                                    </div>
+                                    <form class="card__color-form">
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="gray" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="black" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="platinum" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="red" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                    </form>
+                                    <div class="card__discounts">
+                                        <div class="card__discount">
+                                            <img src="./images/outline.svg" alt="outline">
+                                            <a href="/">Выгода по госпрограмме</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/shield.svg" alt="shield">
+                                            <a href="/">КАСКО в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/gift.svg" alt="gift">
+                                            <a href="/">Доп.оборудование <br> на 100 000р в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/wallet.svg" alt="wallet">
+                                            <a href="/">Максимальные <br> выгоды по трейд-ин</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/tires.svg" alt="tires">
+                                            <a href="/">Зимние шины в подарок</a>
+                                        </div>
+                                    </div>
+                                    <div class="card__buttons">
+                                        <button class="card__price"  type="button" data-fancybox data-src="#modal-form" data-title="Узнать стоимость">
+                                            Узнать стоимость
+                                        </button>
+
+                                        <button class="card__credit"  type="button" data-fancybox data-src="#modal-form" data-title="Кредит">
+                                            Рассчитать кредит
+                                        </button>
+                                        <button class="card__config"  type="button" data-fancybox data-src="#modal-form" data-title="Комплектация">
+                                            Подобрать комплектацию
+                                        </button>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="card" data-model="f7">
+                                    <div class="card__badge">
+                                        <span class="card__badge-text">В наличии</span>
+                                    </div>
+                                    <div class="card__header">
+                                        <div class="card__titles">
+                                            <h2 class="card__title">
+                                                HAVAL F7
+                                            </h2>
+                                            <p class="card__subtitle">
+                                                Выгода до <span class="card__subtitle-price">120 000 ₽</span>
+                                            </p>
+                                        </div>
+                                        <button class="card__testdrive-btn"  type="button" data-fancybox data-src="#modal-form" data-title="Тест-драйв">
+                                            <img src="./images/filter.png" alt="filter" class="card__testdrive-image">
+                                            Записаться <br> на тест-драйв
+                                        </button>
+                                        <a href="/" class="card__images-link">
+                                            <img src="images/dargoX-gray.png" alt="dargoX" class="card__img">
+                                        </a>
+                                    </div>
+                                    <form class="card__color-form">
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="gray" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="black" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="platinum" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="red" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                    </form>
+                                    <div class="card__discounts">
+                                        <div class="card__discount">
+                                            <img src="./images/outline.svg" alt="outline">
+                                            <a href="/">Выгода по госпрограмме</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/shield.svg" alt="shield">
+                                            <a href="/">КАСКО в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/gift.svg" alt="gift">
+                                            <a href="/">Доп.оборудование <br> на 100 000р в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/wallet.svg" alt="wallet">
+                                            <a href="/">Максимальные <br> выгоды по трейд-ин</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/tires.svg" alt="tires">
+                                            <a href="/">Зимние шины в подарок</a>
+                                        </div>
+                                    </div>
+                                    <div class="card__buttons">
+                                        <button class="card__price"  type="button" data-fancybox data-src="#modal-form" data-title="Узнать стоимость">
+                                            Узнать стоимость
+                                        </button>
+
+                                        <button class="card__credit"  type="button" data-fancybox data-src="#modal-form" data-title="Кредит">
+                                            Рассчитать кредит
+                                        </button>
+                                        <button class="card__config"  type="button" data-fancybox data-src="#modal-form" data-title="Комплектация">
+                                            Подобрать комплектацию
+                                        </button>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="card" data-model="h9">
+                                    <div class="card__badge">
+                                        <span class="card__badge-text">В наличии</span>
+                                    </div>
+                                    <div class="card__header">
+                                        <div class="card__titles">
+                                            <h2 class="card__title">
+                                                HAVAL H9
+                                            </h2>
+                                            <p class="card__subtitle">
+                                                Выгода до <span class="card__subtitle-price">270 000 ₽</span>
+                                            </p>
+                                        </div>
+                                        <button class="card__testdrive-btn"  type="button" data-fancybox data-src="#modal-form" data-title="Тест-драйв">
+                                            <img src="./images/filter.png" alt="filter" class="card__testdrive-image">
+                                            Записаться <br> на тест-драйв
+                                        </button>
+                                        <a href="/" class="card__images-link">
+                                            <img src="images/dargoX-gray.png" alt="dargoX" class="card__img">
+                                        </a>
+                                    </div>
+                                    <form class="card__color-form">
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="gray" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="black" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="platinum" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="red" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                    </form>
+                                    <div class="card__discounts">
+                                        <div class="card__discount">
+                                            <img src="./images/outline.svg" alt="outline">
+                                            <a href="/">Выгода по госпрограмме</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/shield.svg" alt="shield">
+                                            <a href="/">КАСКО в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/gift.svg" alt="gift">
+                                            <a href="/">Доп.оборудование <br> на 100 000р в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/wallet.svg" alt="wallet">
+                                            <a href="/">Максимальные <br> выгоды по трейд-ин</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/tires.svg" alt="tires">
+                                            <a href="/">Зимние шины в подарок</a>
+                                        </div>
+                                    </div>
+                                    <div class="card__buttons">
+                                        <button class="card__price"  type="button" data-fancybox data-src="#modal-form" data-title="Узнать стоимость">
+                                            Узнать стоимость
+                                        </button>
+
+                                        <button class="card__credit"  type="button" data-fancybox data-src="#modal-form" data-title="Кредит">
+                                            Рассчитать кредит
+                                        </button>
+                                        <button class="card__config"  data-fancybox data-src="#modal-form" data-title="Комплектация">
+                                            Подобрать комплектацию
+                                        </button>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="card" data-model="gwm-poer">
+                                    <div class="card__badge">
+                                        <span class="card__badge-text">В наличии</span>
+                                    </div>
+                                    <div class="card__header">
+                                        <div class="card__titles">
+                                            <h2 class="card__title">
+                                                HAVAL GWM Poer
+                                            </h2>
+                                            <p class="card__subtitle">
+                                                Выгода до <span class="card__subtitle-price">20 000 ₽</span>
+                                            </p>
+                                        </div>
+                                        <button class="card__testdrive-btn"  type="button" data-fancybox data-src="#modal-form" data-title="Тест-драйв">
+                                            <img src="./images/filter.png" alt="filter" class="card__testdrive-image">
+                                            Записаться <br> на тест-драйв
+                                        </button>
+                                        <a href="/" class="card__images-link">
+                                            <img src="images/dargoX-gray.png" alt="dargoX" class="card__img">
+                                        </a>
+                                    </div>
+                                    <form class="card__color-form">
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="gray" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="black" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="platinum" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="red" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                    </form>
+                                    <div class="card__discounts">
+                                        <div class="card__discount">
+                                            <img src="./images/outline.svg" alt="outline">
+                                            <a href="/">Выгода по госпрограмме</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/shield.svg" alt="shield">
+                                            <a href="/">КАСКО в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/gift.svg" alt="gift">
+                                            <a href="/">Доп.оборудование <br> на 100 000р в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/wallet.svg" alt="wallet">
+                                            <a href="/">Максимальные <br> выгоды по трейд-ин</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/tires.svg" alt="tires">
+                                            <a href="/">Зимние шины в подарок</a>
+                                        </div>
+                                    </div>
+                                    <div class="card__buttons">
+                                        <button class="card__price"  type="button" data-fancybox data-src="#modal-form" data-title="Узнать стоимость">
+                                            Узнать стоимость
+                                        </button>
+
+                                        <button class="card__credit"  type="button" data-fancybox data-src="#modal-form" data-title="Кредит">
+                                            Рассчитать кредит
+                                        </button>
+                                        <button class="card__config"  type="button" data-fancybox data-src="#modal-form" data-title="Комплектация">
+                                            Подобрать комплектацию
+                                        </button>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="card" data-model="gwm-poer-kingkong">
+                                    <div class="card__badge">
+                                        <span class="card__badge-text">В наличии</span>
+                                    </div>
+                                    <div class="card__header">
+                                        <div class="card__titles">
+                                            <h2 class="card__title">
+                                                HAVAL GWM Poer KINGKONG
+                                            </h2>
+                                            <p class="card__subtitle">
+                                                Выгода до <span class="card__subtitle-price">330 000 ₽</span>
+                                            </p>
+                                        </div>
+                                        <button class="card__testdrive-btn"  type="button" data-fancybox data-src="#modal-form" data-title="Тест-драйв">
+                                            <img src="./images/filter.png" alt="filter" class="card__testdrive-image">
+                                            Записаться <br> на тест-драйв
+                                        </button>
+                                        <a href="/" class="card__images-link">
+                                            <img src="images/dargoX-gray.png" alt="dargoX" class="card__img">
+                                        </a>
+                                    </div>
+                                    <form class="card__color-form">
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="gray" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="black" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="platinum" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                        <label class="card__color-label">
+                                            <input type="radio" name="carColor-dargoX" value="red" class="card__color-radio">
+                                            <span class="card__color-custom"></span>
+                                        </label>
+                                    </form>
+                                    <div class="card__discounts">
+                                        <div class="card__discount">
+                                            <img src="./images/outline.svg" alt="outline">
+                                            <a href="/">Выгода по госпрограмме</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/shield.svg" alt="shield">
+                                            <a href="/">КАСКО в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/gift.svg" alt="gift">
+                                            <a href="/">Доп.оборудование <br> на 100 000р в подарок</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/wallet.svg" alt="wallet">
+                                            <a href="/">Максимальные <br> выгоды по трейд-ин</a>
+                                        </div>
+                                        <div class="card__discount">
+                                            <img src="./images/tires.svg" alt="tires">
+                                            <a href="/">Зимние шины в подарок</a>
+                                        </div>
+                                    </div>
+                                    <div class="card__buttons">
+                                        <button class="card__price"  type="button" data-fancybox data-src="#modal-form" data-title="Узнать стоимость">
+                                            Узнать стоимость
+                                        </button>
+
+                                        <button class="card__credit"  type="button" data-fancybox data-src="#modal-form" data-title="Кредит">
+                                            Рассчитать кредит
+                                        </button>
+                                        <button class="card__config"  type="button" data-fancybox data-src="#modal-form" data-title="Комплектация">
+                                            Подобрать комплектацию
+                                        </button>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div style="display:none;" id="modal-form">
+        <div class="modal">
+            <h2 class="modal__title" id="modal-title">Заявка</h2>
+
+            <form class="modal__form">
+                <input type="text" name="name" placeholder="Имя" required />
+                <input type="tel" name="phone" placeholder="Телефон" required />
+
+                <button type="submit" class="modal__submit">
+                    Отправить
+                </button>
+            </form>
+        </div>
+    </div>
+    <script src="https://timer.sinoby.ru/public/assets/embed/timer-core.min.js?v=20260518b"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
